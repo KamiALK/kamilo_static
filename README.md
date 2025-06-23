@@ -1,0 +1,1 @@
+# kamilo_static
