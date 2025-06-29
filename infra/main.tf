@@ -1,11 +1,11 @@
 provider "azurerm" {
   features {}
 }
-resource "azurerm_static_site" "dev_site" {
+resource "azurerm_static_web_app" "dev_action" {
   name                = "webunoapp-dev"
   resource_group_name = "webuno_group"
   location            = "Central US"
-  sku_name            = "Free"
+  sku_tier            = "Free"
 
 
   repository_url = "https://github.com/KamiALK/kamilo_static"
