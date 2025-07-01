@@ -38,6 +38,8 @@ next-env.d.ts
 
 #  terraform
 #
+./infra/
+./infra
 .terraform/ 
 terraform.tfstate
 
