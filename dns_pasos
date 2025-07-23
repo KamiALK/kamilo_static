@@ -1,0 +1,22 @@
+
+az login
+
+
+
+
+az staticwebapp hostname set \
+  --name NOMBRE_DEL_RECURSO \
+  --resource-group NOMBRE_DEL_GRUPO \
+  --hostname www.tudominio.com
+
+
+
+
+# esto nos permite ver los recursos de la cuenta
+az staticwebapp list --output table
+
+
+az staticwebapp hostname set \
+  --name webunoapp-dev \
+  --resource-group webuno_group \
+  --hostname www.tudominio.com
