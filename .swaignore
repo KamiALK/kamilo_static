@@ -1,0 +1,8 @@
+
+infra/
+.terraform/
+*.tf
+*.tfstate
+.git/
+*.md
+LICENSE
