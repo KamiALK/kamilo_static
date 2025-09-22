@@ -1,0 +1,23 @@
+{
+  "name": "kamilo_static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KamiALK/kamilo_static.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KamiALK/kamilo_static/issues"
+  },
+  "homepage": "https://github.com/KamiALK/kamilo_static#readme",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
