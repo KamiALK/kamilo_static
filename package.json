@@ -1,23 +1,26 @@
 {
-  "name": "kamilo_static",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KamiALK/kamilo_static.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KamiALK/kamilo_static/issues"
-  },
-  "homepage": "https://github.com/KamiALK/kamilo_static#readme",
-  "devDependencies": {
-    "typescript": "^5.9.2"
-  }
+	"name": "kamilo_static",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KamiALK/kamilo_static.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/KamiALK/kamilo_static/issues"
+	},
+	"homepage": "https://github.com/KamiALK/kamilo_static#readme",
+	"devDependencies": {
+		"@biomejs/biome": "^2.2.4",
+		"typescript": "^5.9.2"
+	},
+	"scripts": {
+		"lint": "biome lint ./src",
+		"format": "biome format --write ./src",
+		"check": "biome check --apply ./src"
+	}
 }
